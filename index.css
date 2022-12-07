@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+/* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+background-repeat: no-repeat;
+/* height: 100%; */
+}
+
+body{
+    background-image: url("./img/pic2.jpg");
+    background-size: 100vw 100vh;
+}
+
+
+.navbar-container{
+
+  position: relative;
+  padding: 10px;
+  height: 20vh;
+}
+
+
+.navbar-elements{
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    right: 10px;
+    color: thistle;
+}
+
+li{
+    display: inline;
+    padding-left: 50px ;
+}
+
+.user-icon{
+    border-style: dotted;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.boddy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.tummy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.icons{
+    margin-top: 30px;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.search-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Nerko One', cursive;
+    color: white;
+
+}
+
+
+.GoogleText{
+    font-size: 90px;
+    font-family: 'Kenia', cursive;
+    color: thistle;
+}
+
+
+.search-bar input[type=text] {
+    border: 2px solid silver;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+}
